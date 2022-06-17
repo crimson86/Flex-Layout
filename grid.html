@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    
+<style>
+    *{
+        background-color: rgb(226, 216, 216);
+    }
+    body{
+      
+        display: flex;
+        place-items: center;
+        
+    }
+.grid-container {
+  display: grid;
+  gap: 10px;
+  
+  padding: 10px;
+  width: 60%;
+  height: 400px;
+  margin: 90px 250px;
+}
+
+
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 5;
+  background-color:orangered;
+}
+
+.item2 {
+  grid-column: 3 ;
+  grid-row: 1 / span 5;
+  background-color:orange;
+}
+.item3{
+grid-column:2 / span 2 ;
+grid-row: 6 / span 3;
+background-color:rgb(23, 23, 216);
+}
+
+.item4 {
+  grid-column: 2 / span 2 ;
+  grid-row: 9 /span 3;
+  background-color:rgb(23, 23, 216);
+}
+
+.item5 {
+  grid-column: 1 ;
+  grid-row:  6 /span 6;
+  background-color:rgb(44, 214, 44);
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid-container">
+  <div class="grid-item item1"></div>
+  <div class="grid-item item2"></div>
+  <div class="grid-item item3"></div>
+  <div class="grid-item item4"></div>
+
+  <div class="grid-item item5"></div>
+</div>
+<a href="index.html">RESPONSIVE</a>
+
+</body>
+</html>
+
+
